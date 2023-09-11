@@ -1,2 +1,2 @@
 # Welcome to the website source code!
-This is where you find our games and their source code!
+Here, you can find our games and their source code!
