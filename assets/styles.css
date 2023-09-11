@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --Inter: Inter;
+    --cursor-default: default;
+    --cursor-text: text;
+    --cursor-pointer: pointer;
+    --cursor-not-allowed: not-allowed;
+}
+
+* {
+    font-family: var(--Inter);
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.center {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.flex.direction-row {
+    flex-direction: row;
+}
+
+.flex.direction-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex.direction-column {
+    flex-direction: column;
+}
+
+.flex.direction-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.373);
+    top: 0;
+    pointer-events: none;
+}
+
+button:not(:disabled) {
+    padding: 9.5px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(129, 96, 206);
+    color: rgb(255, 255, 255);
+    cursor: var(--cursor-pointer);
+}
+
+button:disabled {
+    padding: 9.5px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(104, 12, 12);
+    color: rgb(255, 255, 255);
+    cursor: var(--cursor-not-allowed);
+}

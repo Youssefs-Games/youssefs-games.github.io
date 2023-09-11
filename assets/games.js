@@ -1,0 +1,1 @@
+console.error(new ReferenceError("No games found."));
