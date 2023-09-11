@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: E-mail Youssef
+    url: mailto:youssef.land@outlook.com
+    about: "E-mail Youssef if there's an issue that's more severe than what you can describe in GitHub."
+  - name: "E-mail Youssef's dad"
+    url: mailto:abmonem14@gmail.com
+    about: "E-mail Youssef's dad if there's an issue that's more severe than what you can describe in GitHub."
