@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="/assets/Youssef.jpg" type="image/x-icon">
+    <title>404 - Youssef's Games</title>
+</head>
+<body>
+    <div class="content">
+        <nav class="navbar flex direction-row">
+            <a class="flex direction-column wrap center link-no-style" href="/">
+                <img src="/assets/Youssef.jpg" alt="Youssef" title="The Youssef's Games logo!" width="25%">
+                <p>Youssef's Games <span id="yg-preview-badge" class="preview beta">Beta Preview</span></p>
+            </a>
+            <a class="link-no-style" href="/games">Games</a>
+        </nav>
+        <h1>404 - Not Found!</h1>
+        <p>Looks like the page you were looking for doesn't exist. If this looks like a mistake, please open an issue on GitHub.</p>
+        <div id="footer">
+            <div class="footer-part-1" hx-get="/assets/footer" hx-trigger="load" hx-target=".footer-part-1" hx-swap="innerHTML" style="margin-top: 20px">
+                <div class="content flex direction-column center loading" style="min-height: 25%; max-width: 100%; min-width: 75%; padding: 100px">
+                    <i class="fas fa-spinner-third fa-spin"></i>
+                    <br>
+                    <h2>Loading footer...</h2>
+                    <p class="warning-fade-in">If you still see this message, the assets folder might be down or your Internet is slow.</p>
+                </div>
+            </div>
+            <div class="footer-part-2 flex direction-column center">
+                <p>The pink color of the links on <a href="/games">/games</a> belongs to <a href="https://chromewebstore.google.com/detail/blocklive-scratch-realtim/gelkmljpoacdjkjkcfekkmgkpnmeomlk" class="blocklive-link">Blocklive</a>.</p>
+                <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noreferrer noopener">
+                    <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png" width="118" height="41" title="CC 4.0 BY-NC-ND" alt="CC 4.0 BY-NC-ND">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/htmx.org/dist/htmx.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -30,16 +30,16 @@ const gameEntryExample = {
     /** The game's genre. */
     genre: gameGenre[5 /* 0-5 */],
     /** The game thumbnail. */
-    thumbnail: "/games/[game number]/thumbnail.png" /* Use "TBA" instead if the thumbnail is still being created or has not officially dropped yet. */,
+    thumbnail: "/in-maintenance/games/[game number]/thumbnail.png" /* Use "TBA" instead if the thumbnail is still being created or has not officially dropped yet. */,
     /** The game URL. */
-    url: "/games/[game number]/"
+    url: "/in-maintenance/games/[game number]/"
 };
 const games = [
     {
         name: "JavaScript Pong",
         genre: gameGenre[5],
         thumbnail: "TBA",
-        url: "/games/1/"
+        url: "/in-maintenance/games/1/"
     }
 ];
 const noGames = false;

@@ -82,7 +82,6 @@ noscript h6 {
     align-content: center;
     justify-content: center;
     box-sizing: border-box;
-    gap: 10px;
     background: rgb(129, 96, 206);
     color: rgb(255, 255, 255);
     border-bottom: 2px solid linear-gradient(90deg, rgb(129, 96, 206), rgb(0, 0, 0));
